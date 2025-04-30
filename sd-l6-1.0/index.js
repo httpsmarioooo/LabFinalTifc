@@ -37,5 +37,7 @@ switch (task) {
     globalThis.delUser = task4.delUser;
     delUser(6);
     delUser(5);
+    delUser(9);
+    delUser(8);
     setTimeout(function () { fetch(getServerURL() + "/users").then(response => response.json()).then(data => console.log(data)); }, 2000);
 }
